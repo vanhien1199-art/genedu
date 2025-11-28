@@ -25,10 +25,8 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="text-white font-bold text-lg mb-4">Sản Phẩm</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-blue-400 transition">
-               <a 
-              href="https://edutoolgame.pages.dev" />Game khởi động bài học, luyện tập</a></li>
-            <li><a href="#" className="hover:text-blue-400 transition">Tạo kho câu hỏi</a></li>
+            <li><a href="#" className="https://edutoolgame.pages.dev">Game khởi động bài học, luyện tập</a></li>
+            <li><a href="#" className="https://edutool.pages.dev">Tạo kho câu hỏi</a></li>
             <li><a href="#" className="hover:text-blue-400 transition">Ngân Hàng Đề Thi</a></li>
             <li><a href="#" className="hover:text-blue-400 transition">Công Cụ Chấm Điểm</a></li>
           </ul>
@@ -58,4 +56,5 @@ const Footer: React.FC = () => {
 
 
 export default Footer;
+
 
