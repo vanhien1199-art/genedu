@@ -110,7 +110,6 @@ const LandingPage: React.FC = () => {
               <Rocket size={20} />
              Game Creator AI
               </a>
-               
               </h3>
               <p className="text-slate-500 mb-8 leading-relaxed">
                 Biến nội dung sách giáo khoa thành các trò chơi tương tác (Trắc nghiệm, Ô chữ, Hộp bí mật) chỉ trong tích tắc.
@@ -129,18 +128,25 @@ const LandingPage: React.FC = () => {
               <div className="w-16 h-16 bg-purple-50 rounded-2xl flex items-center justify-center text-purple-600 mb-6">
                 <Zap size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">tạo câu hỏi tự động cho Vnedu lms</h3>
-              <p className="text-slate-500 mb-8 leading-relaxed">
-                Giải pháp tạo ngân hàng câu hỏi tự động cho VNEDU / LMS.
-              </p>
-               <a 
-              href="https://edutool.pages.dev/" 
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                <a 
+              href="https://edutoolgame.pages.dev" 
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
             >
               <Rocket size={18} />
-             Tạo câu  hỏi
+                Tạo câu hỏi tự động cho Vnedu lms
+              </h3>
+              <p className="text-slate-500 mb-8 leading-relaxed">
+                Giải pháp tạo ngân hàng câu hỏi tự động cho VNEDU / LMS.
+              </p>
+               <a 
+                href="https://edutoolgame.pages.dev" 
+                target="_blank"
+                className="inline-flex items-center gap-2 text-blue-600 font-bold hover:gap-3 transition-all"
+              >
+                Tạo trò chơi<ArrowRight size={18}/>
               </a>
               
               </div>
@@ -169,6 +175,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
