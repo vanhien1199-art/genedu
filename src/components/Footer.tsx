@@ -47,7 +47,10 @@ const Footer: React.FC = () => {
             <li><a href="#" className="hover:text-blue-400 transition">Điều khoản dịch vụ</a></li>
             <li className="flex items-start gap-2 mt-4 text-slate-500">
                <MapPin size={16} className="mt-1 flex-shrink-0"/> 
-               <span>?</span>
+                <div class="zalo-area">
+                    <span><i class="fas fa-qrcode"></i> Quét mã Zalo:</span>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://zalo.me/0914329178" alt="Zalo QR" class="qr-code">
+                </div>
             </li>
           </ul>
         </div>
@@ -62,6 +65,7 @@ const Footer: React.FC = () => {
 
 
 export default Footer;
+
 
 
 
