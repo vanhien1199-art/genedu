@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
       {/* HEADER / NAV */}
       <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-           <span className="text-2xl font-extrabold text-slate-900 tracking-tight cursor-pointer">GenEdu<span className="text-blue-600">.vn</span></span>
+           <span className="text-2xl font-extrabold text-slate-900 tracking-tight cursor-pointer">GenEdu<span className="text-blue-600"></span></span>
            <div className="hidden md:flex gap-8 text-sm font-medium text-slate-600">
               <a href="#features" className="hover:text-blue-600 transition">Tính Năng</a>
               <a href="#tools" className="hover:text-blue-600 transition">Công Cụ</a>
@@ -149,5 +149,6 @@ const LandingPage: React.FC = () => {
     </div>
   );
 };
+
 
 export default LandingPage;
