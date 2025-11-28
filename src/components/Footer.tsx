@@ -63,19 +63,14 @@ const Footer: React.FC = () => {
                         className="w-24 h-24"
                     />
                 </div>
-                <a 
-                  href="https://zalo.me/0914329178" // <-- Thay link Zalo cá nhân/OA của bạn vào đây
-                  target="_blank" 
-                  rel="noreferrer"
-                  className="text-sm text-blue-400 hover:text-blue-300 flex items-center gap-1 transition"
-                >
-                   <MessageCircle size={16}/> Kết nối Zalo
                 </a>
+                
+                <div class="zalo-area">
+                    <span><i class="fas fa-qrcode"></i> Quét mã Zalo:</span>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://zalo.me/0914329178" alt="Zalo QR" class="qr-code">
+                </div>
             </div>
-
-          </div>
         </div>
-      </div>
       
       <div className="max-w-6xl mx-auto px-4 mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
         <p>© {new Date().getFullYear()} GenEdu AI. All rights reserved. Developed by Vanhien1199-Art.</p>
@@ -85,4 +80,5 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
 
