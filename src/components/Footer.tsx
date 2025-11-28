@@ -15,15 +15,11 @@ const Footer: React.FC = () => {
             Hệ sinh thái giáo dục ứng dụng trí tuệ nhân tạo, giúp giáo viên Việt Nam soạn bài giảng sáng tạo, tiết kiệm thời gian và nâng cao chất lượng dạy học.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="text-slate-400 hover:text-white transition" title="Facebook"><Facebook size={20} /></a>
-            <a href="#" className="text-slate-400 hover:text-white transition" title="Zalo"><MessageCircle size={20} /></a>
+            <a href="https://facebook.com/nung.hien" className="text-slate-400 hover:text-white transition" title="Facebook"><Facebook size={20} /></a>
+            <a href="https://zalo.me/84914329178" className="text-slate-400 hover:text-white transition" title="Zalo"><MessageCircle size={20} /></a>
             <a href="#" className="text-slate-400 hover:text-white transition" title="Email"><Mail size={20} /></a>
           </div>
-          <div className="flex items-center gap-2 mt-6 text-sm text-slate-500">
-             <MapPin size={16} className="flex-shrink-0"/> 
-             <span>Tầng 5, Tòa nhà Công Nghệ, Hà Nội</span>
-          </div>
-        </div>
+                  </div>
 
         {/* Cột 2: Sản phẩm */}
         <div>
@@ -43,7 +39,7 @@ const Footer: React.FC = () => {
             
             {/* Nút Chat Facebook */}
             <a 
-              href="https://facebook.com" // <-- Thay link Fanpage của bạn vào đây
+              href="https://facebook.com/nung.hien" // <-- Thay link Fanpage của bạn vào đây
               target="_blank" 
               rel="noreferrer"
               className="group flex items-center gap-3 bg-[#1877F2] hover:bg-[#166fe5] text-white px-4 py-2 rounded-lg transition w-fit"
@@ -85,4 +81,5 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
 
