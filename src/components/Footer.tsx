@@ -26,8 +26,7 @@ const Footer: React.FC = () => {
           <h3 className="text-white font-bold text-lg mb-4">Sản Phẩm</h3>
           <ul className="space-y-3 text-sm">
             <li><a href="https://edutoolgame.pages.dev" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition flex items-center gap-2">Game Creator AI <ExternalLink size={12}/></a></li>
-            <li><a href="#" className="hover:text-blue-400 transition">Trợ Lý Soạn Văn</a></li>
-            <li><a href="#" className="hover:text-blue-400 transition">Ngân Hàng Đề Thi</a></li>
+            <li><a href="https://edutool.pages.dev/" className="hover:text-blue-400 transition">Ngân Hàng Đề Thi</a></li>
             <li><a href="#" className="hover:text-blue-400 transition">Công Cụ Chấm Điểm</a></li>
           </ul>
         </div>
@@ -74,12 +73,13 @@ const Footer: React.FC = () => {
       </div>
       
       <div className="max-w-6xl mx-auto px-4 mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-        <p>© {new Date().getFullYear()} GenEdu AI. All rights reserved. Developed by Vanhien1199-Art.</p>
+        <p>© {new Date().getFullYear()} GenEdu AI. All rights reserved. Developed by vanhien1199-Art.</p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
+
 
 
