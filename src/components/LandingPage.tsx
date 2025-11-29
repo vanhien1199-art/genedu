@@ -135,7 +135,7 @@ const LandingPage: React.FC = () => {
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
             >
-              <Rocket size={18} />
+              <Rocket size={20} />
            Tạo câu hỏi tự động cho Vnedu LMS
               </a>
               </h3>
@@ -176,6 +176,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
