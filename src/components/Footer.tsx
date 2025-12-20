@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
           <ul className="space-y-3 text-sm">
             <li><a href="https://edutoolgame.pages.dev" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition flex items-center gap-2">Game Creator AI <ExternalLink size={12}/></a></li>
             <li><a href="https://edutool.pages.dev/" className="hover:text-blue-400 transition">Ngân Hàng Đề Thi</a></li>
-            <li><a href="#" className="hover:text-blue-400 transition">Công Cụ Chấm Điểm</a></li>
+            <li><a href="https://testtool-dl2.pages.dev/" className="hover:text-blue-400 transition">Công Cụ tạo ma trận và đề kiểm tra 7991</a></li>
           </ul>
         </div>
 
@@ -80,6 +80,7 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
 
 
 
