@@ -163,7 +163,7 @@ const LandingPage: React.FC = () => {
               <span className="inline-flex items-center gap-2 text-slate-400 font-bold cursor-not-allowed">
               </span>
                <a 
-                href="https://edutool.pages.dev" 
+                href="https://testtool-dl2.pages.dev/" 
                 target="_blank"
                 className="inline-flex items-center gap-2 text-blue-600 font-bold hover:gap-3 transition-all"
               >
@@ -182,6 +182,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
