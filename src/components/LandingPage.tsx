@@ -166,7 +166,7 @@ const LandingPage: React.FC = () => {
             >
                   Công cụ tạo ma trận và đề kiểm tra
               </a>
-                  
+              </h3>
               <p className="text-slate-500 mb-8 leading-relaxed">
                 Đây là công cụ hỗ trợ giáo viên trong việctạo đề kiểm tra tự động. Hệ thống kết hợp sức mạnh của trí tuệ nhân tạo (Google Gemini) và thuật toán tối ưu hóa toán học để đảm bảo đề thi luôn sát với yêu cầu.
               </p>
@@ -192,6 +192,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
