@@ -156,13 +156,19 @@ const LandingPage: React.FC = () => {
               <div className="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-600 mb-6">
                 <Users size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">Trợ Lý Chủ Nhiệm</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">Công cụ tạo ma trận và đề kiểm tra</h3>
               <p className="text-slate-500 mb-8 leading-relaxed">
-                Quản lý học sinh, tạo nhận xét học bạ tự động và lập kế hoạch hoạt động trải nghiệm.
+                Đây là công cụ hỗ trợ giáo viên trong việctạo đề kiểm tra tự động. Hệ thống kết hợp sức mạnh của trí tuệ nhân tạo (Google Gemini) và thuật toán tối ưu hóa toán học để đảm bảo đề thi luôn sát với yêu cầu.
               </p>
               <span className="inline-flex items-center gap-2 text-slate-400 font-bold cursor-not-allowed">
-                Sắp ra mắt...
               </span>
+               <a 
+                href="https://edutool.pages.dev" 
+                target="_blank"
+                className="inline-flex items-center gap-2 text-blue-600 font-bold hover:gap-3 transition-all"
+              >
+                Tạo Ma trận<ArrowRight size={18}/>
+              </a>
             </div>
           </div>
         </div>
@@ -176,6 +182,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
