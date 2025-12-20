@@ -92,6 +92,7 @@ const LandingPage: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
             {/* Tool 1: Game Creator (Active) */}
             <div className="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-blue-200 transition-all duration-300">
               <div className="absolute top-6 right-6">
@@ -154,6 +155,7 @@ const LandingPage: React.FC = () => {
             {/* Tool 3: Coming Soon */}
             <div className="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 opacity-75">
               <div className="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-600 mb-6">
+                
                 <Users size={32} />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">Công cụ tạo ma trận và đề kiểm tra</h3>
@@ -165,7 +167,7 @@ const LandingPage: React.FC = () => {
                <a 
                 href="https://testtool-dl2.pages.dev/" 
                 target="_blank"
-                className="inline-flex items-center gap-2 text-blue-600 font-bold hover:gap-3 transition-all"
+                className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
               >
                 Tạo Ma trận<ArrowRight size={18}/>
               </a>
@@ -182,6 +184,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
